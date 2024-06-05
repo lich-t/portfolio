@@ -12,7 +12,7 @@ import {
 
 const Hero = () => {
 	return (
-		<section className="flex flex-col gap-20 md:flex-row items-center bg-gray-100 px-20 py-24">
+		<section className="flex flex-col gap-20 md:flex-row items-center px-20 py-24">
 			{/* Left Column: Text Content */}
 			<div className="order-2 md:order-1 mt-4 flex flex-col  items-start">
 				<h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
@@ -42,7 +42,7 @@ const Hero = () => {
 				</div>
 			</div>
 			{/* Right Column: Image */}
-			<div className="order-1 md:order-2 mb-8 md:mt-0 flex justify-center">
+			<div className=" w-full order-1 md:order-2 mb-8 md:mt-0 flex justify-center">
 				<Image
 					src={profil}
 					alt="Hero Image"
