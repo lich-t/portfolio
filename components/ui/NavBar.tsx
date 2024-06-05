@@ -10,7 +10,7 @@ const NavBar = () => {
 		{ page: "Contact", url: "/" },
 	];
 	return (
-		<div className="flex justify-between items-center px-20 py-4 border-b-4">
+		<div className="flex justify-between items-center px-20 py-4 border-b-1">
 			<div className="justify-between items-center flex">
 				<p className="text-gray-900 text-8 items-center">
 					<b>MyFolio/</b>
