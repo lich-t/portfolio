@@ -1,14 +1,12 @@
-import React from "react";
-import Image from "next/image";
 import profil from "@/app/assets/profil.jpg";
 import {
 	Figma,
-	Github,
 	GithubIcon,
 	LocateIcon,
 	PoundSterlingIcon,
 	X,
 } from "lucide-react";
+import Image from "next/image";
 
 const Hero = () => {
 	return (
@@ -16,7 +14,7 @@ const Hero = () => {
 			{/* Left Column: Text Content */}
 			<div className="order-2 md:order-1 mt-4 flex flex-col  items-start">
 				<h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-					Hi, I’m licht 👋{" "}
+					Hi, I’m Kab 👋{" "}
 				</h1>
 				<p className="text-lg md:text-base tgxt-gray-600 mb-8">
 					creating (and occasionally designing) exceptional digital I'm a full
@@ -35,7 +33,7 @@ const Hero = () => {
 						<span>Available for new projects</span>
 					</div>
 				</div>
-				<div className="flex space-x-2 mt-10">
+				<div className=" pt-4 flex space-x-2 mt-10">
 					<GithubIcon />
 					<Figma />
 					<X />

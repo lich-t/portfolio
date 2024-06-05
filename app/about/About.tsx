@@ -7,7 +7,7 @@ const About = () => {
 		<div className="py-18 px-20">
 			<div className="px-8 py-0 md:flex-row grid grid-cols-1 gap-y-12 items-center justify-center">
 				<div className=" m-[0px] flex item-center justify-center">
-					<h2 className="bg-white px-5 py-1 items-center rounded-2xl text-gray-600">
+					<h2 className="bg-gray-300 px-5 py-1 items-center rounded-2xl text-gray-600">
 						About me
 					</h2>{" "}
 				</div>
